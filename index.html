@@ -149,90 +149,66 @@
       </p>
       <p class="absolute 2xl:hidden">DRAG TO EXPLORE</p>
 
-      <div class="timeline-container absolute top-1/2 flex h-full w-full flex-1 -translate-y-1/2 flex-col overflow-auto 2xl:overflow-visible">
-        <section class="relative flex w-[250vh] flex-1 items-center gap-4 text-primary 2xl:w-full" style="--experiences: 5; --primary: #f2ff5b; --secondary: #89ff69; --mobile-experience: 1;">
-          <div class="scroll-snap">2016</div>
-          <div class="relative w-full">
-            <hr class="line absolute h-1 w-full rounded-md bg-secondary text-secondary">
-            <hr class="line-secondary line-secondary-mobile line-secondary-width-mobile absolute left-0 h-1 rounded-md bg-primary text-primary transition-all duration-[0.35s] line-still" style="--experience-idx: -1;">
+      <div class="timeline-container">
+        <section class="timeline-track" style="--experiences: 4;">
+          <!-- Start year -->
+          <div class="timeline-year">2018</div>
+          <div class="timeline-line-wrapper">
+            <hr class="timeline-line">
+            <hr class="timeline-progress">
           </div>
-          <div class="scroll-snap pr-4 2xl:p-0">2025</div>
-
-          <!-- Timeline Dots -->
-          <div class="absolute left-0 flex w-full items-center justify-evenly">
-            <div class="dot-border after:transition-all 2xl:after:!border-secondary after:border-primary"></div>
-            <div class="dot-border after:transition-all 2xl:after:!border-secondary"></div>
-            <div class="dot-border after:transition-all 2xl:after:!border-secondary"></div>
-            <div class="dot-border after:transition-all 2xl:after:!border-secondary"></div>
-            <div class="dot-border after:transition-all 2xl:after:!border-secondary"></div>
+          <!-- End year -->
+          <div class="timeline-year">2025</div>
+      
+          <!-- Dots above the line -->
+          <div class="timeline-dots">
+            <div class="dot-border"></div>
+            <div class="dot-border"></div>
+            <div class="dot-border"></div>
+            <div class="dot-border"></div>
           </div>
-
-          <!-- Titles Above Dots -->
-          <div class="absolute left-0 flex w-full items-center justify-evenly text-responsive-h3">
-            <div class="top-title dot-title" style="--text: 'ABC Corp';"></div>
-            <div class="top-title dot-title" style="--text: 'ABF';"></div>
-            <div class="top-title dot-title" style="--text: 'DFSDF';"></div>
-            <div class="top-title dot-title" style="--text: 'SDS';"></div>
-            <div class="top-title dot-title" style="--text: 'SDSDS';"></div>
+      
+          <!-- Labels above dots -->
+          <div class="timeline-labels">
+            <div class="label">Freelancer</div>
+            <div class="label">pianobit s.r.l</div>
+            <div class="label">Way AS</div>
+            <div class="label">ContinuumLab</div>
           </div>
-
-          <div class="dot-container absolute left-0 flex w-full items-center justify-evenly">
-            <!-- Software Engineer Consultant -->
-            <button class="dot scroll-snap" aria-label="Work Experience">
-              <article class="dot-article 2xl:hidden-dot article-bottom">
-                <header class="text-primary text-responsive-h3">Software Engineer Consultant</header>
-                <div class="w-full text-text text-responsive-h5">
-                  Consulted on enterprise-grade applications across diverse industries, delivering high-performance, scalable codebases and architecture recommendations.
-                </div>
-                <footer>ABC Corp | 2016 - Present</footer>
+      
+          <!-- Dot interactive cards -->
+          <div class="timeline-entries">
+            <button class="dot">
+              <article class="entry entry-bottom">
+                <header>Freelancer</header>
+                <p>I've worked for hundreds of clients as a freelancer in many different fields of programming, from GUI development to Machine Learning & AI.</p>
+                <footer>Worldwide | Jan 2018 - Feb 2022</footer>
               </article>
             </button>
-
-            <!-- ETL Developer -->
-            <button class="dot scroll-snap" aria-label="Work Experience">
-              <article class="dot-article 2xl:hidden-dot article-top">
-                <header class="text-primary text-responsive-h3">ETL Developer</header>
-                <div class="w-full text-text text-responsive-h5">
-                  Developed data pipelines and transformed large datasets to support analytics and reporting functions within financial systems.
-                </div>
-                <footer>ABF | 2019 - 2021</footer>
+            <button class="dot">
+              <article class="entry entry-top">
+                <header>pianobit s.r.l</header>
+                <p>Led NodeJS full-stack development for a SaaS firm, with robust microservices and real-time trading features. Developed secure solutions and a seamless Vue.js interface for file sharing.</p>
+                <footer>Italy | Jun 2020 - Jul 2022</footer>
               </article>
             </button>
-
-            <!-- Technical Team Lead -->
-            <button class="dot scroll-snap" aria-label="Work Experience">
-              <article class="dot-article 2xl:hidden-dot article-bottom">
-                <header class="text-primary text-responsive-h3">Technical Team Lead</header>
-                <div class="w-full text-text text-responsive-h5">
-                  Led a team of software engineers, oversaw project delivery, facilitated agile practices, and ensured high standards in code quality and design.
-                </div>
-                <footer>DFSDF | 2021 - 2024</footer>
+            <button class="dot">
+              <article class="entry entry-bottom">
+                <header>Way AS</header>
+                <p>Designed booking & payment infrastructure and created a mobile app for automated bookings at a simulator-based driving school.</p>
+                <footer>Norway | Aug 2022 - Jun 2023</footer>
               </article>
             </button>
-
-            <!-- Reverse Engineer -->
-            <button class="dot scroll-snap" aria-label="Work Experience">
-              <article class="dot-article 2xl:hidden-dot article-top">
-                <header class="text-primary text-responsive-h3">Reverse Engineer</header>
-                <div class="w-full text-text text-responsive-h5">
-                  Reverse engineered malware samples, identified obfuscation techniques, and delivered detailed threat intelligence reports.
-                </div>
-                <footer>SDS | 2024</footer>
-              </article>
-            </button>
-
-            <!-- Cybersecurity Architect -->
-            <button class="dot scroll-snap" aria-label="Work Experience">
-              <article class="dot-article 2xl:hidden-dot article-bottom">
-                <header class="text-primary text-responsive-h3">Cybersecurity Architect</header>
-                <div class="w-full text-text text-responsive-h5">
-                  Designed secure system architectures, performed threat modeling, and implemented zero-trust principles across enterprise networks.
-                </div>
-                <footer>SDSDS | 2025</footer>
+            <button class="dot">
+              <article class="entry entry-top">
+                <header>ContinuumLab</header>
+                <p>As a senior front-end developer, I designed a social-media platform interface, connecting to Strapi CMS with GraphQL & real-time capabilities, and integrating authentication providers.</p>
+                <footer>USA | Nov 2022 - Current</footer>
               </article>
             </button>
           </div>
         </section>
+      </div>
       </div>
     </div>
 
