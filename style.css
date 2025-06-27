@@ -11,7 +11,7 @@ html {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding-left: 5rem; /* Adjust this until nav and hero align exactly */
+  padding-left: 3rem; /* Adjust this until nav and hero align exactly */
   padding-right: 2rem;
 }
 
@@ -71,7 +71,7 @@ body.dark-theme {
   flex-direction: column;
   justify-content: center;  /* vertically center content */
   align-items: flex-start;  /* left-align text */
-  padding-left: 7rem;       /* push content to match Daniel's indent */
+  padding-left: 7rem;      
   padding-right: 2rem;
   padding-top: 0;
   padding-bottom: 0;
@@ -204,13 +204,11 @@ body.dark-theme {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.navbar-container {
+.container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 1.2rem 2rem 1.2rem 3rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding-left: 3rem;
+  padding-right: 2rem;
 }
 
 .navbar-left {
