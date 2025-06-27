@@ -944,3 +944,109 @@ nav.floating-dots a:hover {
   --primary: #fef08a;
   --secondary: #a3e635;
 }
+
+
+
+.timeline-container {
+  position: relative;
+  width: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.timeline-track {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-width: calc(var(--experiences) * 60vh);
+}
+
+.timeline-year {
+  flex-shrink: 0;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.timeline-line-wrapper {
+  position: relative;
+  flex: 1;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 100%;
+  background: var(--secondary);
+  border-radius: 9999px;
+}
+
+.timeline-progress {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 0;
+  background: var(--primary);
+  border-radius: 9999px;
+  transition: width 0.4s ease;
+}
+
+.timeline-dots,
+.timeline-labels,
+.timeline-entries {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.timeline-dots {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.dot {
+  width: 1rem;
+  height: 1rem;
+  background: var(--primary);
+  border-radius: 50%;
+}
+
+.timeline-labels {
+  top: -2rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.timeline-entries {
+  top: 2.5rem;
+  display: none;
+}
+
+.entry {
+  background: #1f2937;
+  color: #e5e7eb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 14rem;
+  font-size: 0.85rem;
+}
+
+.entry-top {
+  transform: translateY(-220%);
+}
+
+.entry-bottom {
+  transform: translateY(120%);
+}
+
+@media (min-width: 1536px) {
+  .timeline-entries {
+    display: flex;
+  }
+}
