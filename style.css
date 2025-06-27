@@ -240,6 +240,11 @@ body.dark-theme {
   color: #a3e635;
 }
 
+.navbar-right a.active {
+  color: #fef08a;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .hero-glow {
     padding-left: 2rem;
