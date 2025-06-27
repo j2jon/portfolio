@@ -700,13 +700,25 @@ nav.floating-dots a:hover {
 /* Dot Button */
 .dot {
   position: relative;
-  width: 16px;
-  height: 16px;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
   background-color: var(--primary);
-  border-radius: 9999px;
-  z-index: 10;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  z-index: 10;
+  scroll-snap-align: center;
+}
+
+.dot-border::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  transition: border-color 0.3s;
 }
 
 /* Article Bubble Base */
@@ -762,4 +774,43 @@ nav.floating-dots a:hover {
   .2xl\:hidden-dot {
     display: none !important;
   }
+
+  .2xl\:after\:!border-secondary::after {
+    border-color: var(--secondary) !important;
+  }
+
+  .top-title {
+    position: absolute;
+    top: -2.5rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .article-top {
+    bottom: 3rem;
+  }
+
+  .article-bottom {
+    top: 3rem;
+  }
+}
+
+.timeline-container {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scroll-snap {
+  scroll-snap-align: center;
+}
+
+.line {
+  height: 0.25rem;
+  background-color: var(--secondary);
+}
+
+.line-secondary {
+  background-color: var(--primary);
+  height: 0.25rem;
 }
