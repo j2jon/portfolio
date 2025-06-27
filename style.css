@@ -951,7 +951,7 @@ nav.floating-dots a:hover {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  overflow-x: auto;
+  overflow-x: hidden;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
@@ -960,9 +960,9 @@ nav.floating-dots a:hover {
 .timeline-track {
   display: flex;
   align-items: center;
-  height: 100%;       /* keep it within container height */
+  gap: 1rem;
+  width: 100%; /* ✅ This is what you want */
 }
-
 
 .timeline-year {
   flex-shrink: 0;
