@@ -58,7 +58,7 @@ body.dark-theme {
   max-width: 700px;
   margin: 0 auto;
   padding-top: 8rem; /* Creates more space below navbar */
-  padding-left: 5rem; /* Gives more left offset */
+  padding-left: 1rem; /* Gives more left offset */
   padding-right: 2rem;
 }
 
