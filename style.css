@@ -525,3 +525,59 @@ nav.floating-dots a:hover {
 .skill-item img {
   width: 1.5rem;
 }
+
+.skills-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.skills-layout {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.skills-divider {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.divider-core {
+  width: 2px;
+  height: 100%;
+  background-color: #a3e635;
+  position: relative;
+  z-index: 1;
+}
+
+.divider-glow {
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background-color: #a3e635;
+  filter: blur(10px);
+  z-index: 0;
+}
+
+.skills-columns {
+  display: flex;
+  gap: 4rem;
+}
+
+.skills-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+  color: #e5e7eb;
+}
