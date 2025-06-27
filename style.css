@@ -177,10 +177,11 @@ body.dark-theme {
 .navbar {
   width: 100%;
   background-color: #0f0f0f;
-  position: sticky;
+  position: fixed; /* ✅ CHANGED from sticky to fixed */
   top: 0;
   z-index: 999;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .navbar-container {
