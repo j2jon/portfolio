@@ -77,7 +77,7 @@ body.dark-theme {
   font-weight: 700;
   color: #fef08a;
   text-shadow: 0 0 10px #facc15, 0 0 20px #facc15;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.1rem;
   font-family: 'Quicksand', sans-serif;
   letter-spacing: -1px;
 }
