@@ -8,6 +8,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 5rem; /* Adjust this until nav and hero align exactly */
+  padding-right: 2rem;
+}
+
 body.dark-theme {
   background-color: #0f0f0f;
   color: #fff;
