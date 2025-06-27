@@ -50,16 +50,18 @@ body.dark-theme {
 }
 
 .hero-glow {
+  position: relative;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start; /* Keep text left-aligned */
-  min-height: 100vh;
-  max-width: 700px;
-  margin: 0 auto;
-  padding-top: 8rem; /* Creates more space below navbar */
-  padding-left: 1rem; /* Gives more left offset */
+  justify-content: center;  /* vertically center content */
+  align-items: flex-start;  /* left-align text */
+  padding-left: 7rem;       /* push content to match Daniel's indent */
   padding-right: 2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  max-width: none;          /* allow full width */
+  margin: 0;                /* REMOVE auto-centering */
 }
 
 .glow-name {
