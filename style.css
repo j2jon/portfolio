@@ -482,3 +482,11 @@ nav.floating-dots a:hover {
   font-family: 'Quicksand', sans-serif;
   color: #a3e635;
 }
+
+.section-container {
+  padding-left: 7rem;
+  padding-right: 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
