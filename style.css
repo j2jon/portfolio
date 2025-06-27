@@ -928,3 +928,19 @@ nav.floating-dots a:hover {
     font-weight: 600;
   }
 }
+
+.timeline-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: var(--primary);
+  border-radius: 9999px;
+  width: 0%;
+  transition: width 0.35s ease;
+}
+
+:root {
+  --primary: #fef08a;
+  --secondary: #a3e635;
+}
