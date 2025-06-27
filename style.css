@@ -245,6 +245,27 @@ body.dark-theme {
   font-weight: bold;
 }
 
+.font-subheader {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+
+.text-secondary {
+  color: #a3e635;
+}
+
+.text-responsive-h2 {
+  font-size: 2.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.2xl\:mt-8 {
+  margin-top: 2rem; /* Only applies at 2xl screens if you're mimicking Tailwind */
+}
+
 @media (max-width: 768px) {
   .hero-glow {
     padding-left: 2rem;
