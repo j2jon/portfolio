@@ -90,13 +90,13 @@
     <a href="resume.pdf" download>Download My Resume</a>
   </section>
   
-  <nav class="fixed right-40 top-1/2 z-10 hidden -translate-y-1/2 flex-col gap-4 2xl:flex">
-    <a href="#vanta" class="aspect-square h-4 rounded-full transition-all bg-primary" aria-label="Home"></a>
-    <a href="#about" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="About"></a>
-    <a href="#skills" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="Skills"></a>
-    <a href="#work" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="Work"></a>
-    <a href="#projects" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="Blog"></a>
-    <a href="#contact" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="Contact"></a>
+  <nav class="floating-dots">
+    <a href="#vanta" class="dot-link" aria-label="Home"></a>
+    <a href="#about" class="dot-link" aria-label="About"></a>
+    <a href="#skills" class="dot-link" aria-label="Skills"></a>
+    <a href="#work" class="dot-link" aria-label="Work"></a>
+    <a href="#projects" class="dot-link" aria-label="Blog"></a>
+    <a href="#contact" class="dot-link" aria-label="Contact"></a>
   </nav>
   
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
@@ -194,6 +194,22 @@
 
   sections.forEach(section => observer.observe(section));
   </script>
+  <script>
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".dot-link");
+
+  function activateLinkOnScroll() {
+    let index = sections.length;
+
+    while (--index && window.scrollY + 200 < sections[index].offsetTop) {}
+
+    navLinks.forEach((link) => link.classList.remove("active"));
+    navLinks[index]?.classList.add("active");
+  }
+
+  activateLinkOnScroll();
+  window.addEventListener("scroll", activateLinkOnScroll);
+</script>
 
 </body>
 </html>
