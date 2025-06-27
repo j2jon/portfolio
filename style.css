@@ -856,11 +856,13 @@ nav.floating-dots a:hover {
 
 .timeline-progress {
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
   width: 0;
-  height: 0.25rem;
   background: var(--primary);
   border-radius: 9999px;
-  transition: width 0.35s;
+  transition: width 0.4s ease;
 }
 
 .timeline-dots,
@@ -983,17 +985,6 @@ nav.floating-dots a:hover {
   width: 100%;
   background: var(--secondary);
   border-radius: 9999px;
-}
-
-.timeline-progress {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 4px;
-  width: 0;
-  background: var(--primary);
-  border-radius: 9999px;
-  transition: width 0.4s ease;
 }
 
 .timeline-dots,
