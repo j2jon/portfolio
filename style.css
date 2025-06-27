@@ -544,6 +544,8 @@ nav.floating-dots a:hover {
   position: relative;
   display: flex;
   align-items: center;
+  height: auto; /* Let it grow naturally */
+  min-height: 12rem; /* Ensures visibility */
 }
 
 .divider-core {
