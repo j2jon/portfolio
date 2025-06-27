@@ -56,3 +56,53 @@ container.addEventListener("scroll", () => {
   const progressWidth = (scrollLeft / scrollWidth) * 100;
   progress.style.width = `${progressWidth}%`;
 });
+
+const canvas = document.getElementById("trail-canvas");
+const ctx = canvas.getContext("2d");
+canvas.style.position = "fixed";
+canvas.style.top = 0;
+canvas.style.left = 0;
+canvas.style.pointerEvents = "none";
+canvas.style.zIndex = 9999;
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+let trails = [];
+let isMouseDown = false;
+
+document.addEventListener("mousedown", (e) => {
+  if (e.button === 0) isMouseDown = true; // Left button
+});
+
+document.addEventListener("mouseup", () => {
+  isMouseDown = false;
+});
+
+document.addEventListener("mousemove", (e) => {
+  if (isMouseDown) {
+    trails.push({ x: e.clientX, y: e.clientY, alpha: 1 });
+  }
+});
+
+function animate() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  trails.forEach((t, i) => {
+    ctx.beginPath();
+    ctx.arc(t.x, t.y, 12, 0, 2 * Math.PI);
+    ctx.fillStyle = `rgba(255, 255, 120, ${t.alpha})`;
+    ctx.shadowBlur = 10;
+    ctx.shadowColor = "#fef08a";
+    ctx.fill();
+    t.alpha -= 0.03;
+    if (t.alpha <= 0) trails.splice(i, 1);
+  });
+  requestAnimationFrame(animate);
+}
+
+animate();
+
+window.addEventListener("resize", () => {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+});
