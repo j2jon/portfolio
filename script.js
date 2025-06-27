@@ -107,4 +107,10 @@ window.addEventListener("resize", () => {
   canvas.height = window.innerHeight;
 });
 
+AOS.init({
+  duration: 800,          // Animation duration in ms
+  easing: 'ease-out-cubic',
+  once: true,             // Whether animation happens only once
+  mirror: false           // Whether elements animate out when scrolling past
+});
 
