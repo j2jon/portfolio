@@ -278,6 +278,19 @@ body.dark-theme {
   text-transform: uppercase;
 }
 
+.floating-dots a {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #666; /* default color */
+  transition: background-color 0.3s;
+}
+
+.floating-dots a.active {
+  background-color: #a3e635; /* highlighted color */
+}
+
 .about-section {
   padding-top: 5rem;
   padding-left: 3rem;
