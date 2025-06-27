@@ -318,7 +318,7 @@ body.dark-theme {
   padding-right: 2rem;
 }
 
-.about-header {
+.section-header {
   display: flex;
   gap: 1rem;
   font-family: 'Quicksand', sans-serif;
@@ -411,16 +411,6 @@ nav.floating-dots a:hover {
   margin-top: 6rem;
   padding-left: 7rem;
   padding-right: 2rem;
-}
-
-.skills-header {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  font-family: 'Quicksand', sans-serif;
-  color: #fef08a;
-  font-size: 3rem;
-  margin-bottom: 2rem;
 }
 
 .skills-header .curly {
