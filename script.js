@@ -108,9 +108,9 @@ window.addEventListener("resize", () => {
 });
 
 AOS.init({
-  duration: 800,          // Animation duration in ms
+  duration: 800,
   easing: 'ease-out-cubic',
-  once: true,             // Whether animation happens only once
-  mirror: false           // Whether elements animate out when scrolling past
+  once: true,
+  mirror: false
 });
 
