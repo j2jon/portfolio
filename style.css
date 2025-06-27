@@ -376,6 +376,12 @@ nav.floating-dots a:hover {
 .entry-bottom {
   transform: translateY(120%);
 }
+
+.skill-item:hover {
+  transform: scale(1.05);
+  color: var(--primary);
+}
+
 @media (min-width: 1536px) {
   .timeline-entries { display: flex; }
 }
