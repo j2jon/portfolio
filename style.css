@@ -696,3 +696,70 @@ nav.floating-dots a:hover {
 .scroll-snap {
   scroll-snap-align: center;
 }
+
+/* Dot Button */
+.dot {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background-color: var(--primary);
+  border-radius: 9999px;
+  z-index: 10;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Article Bubble Base */
+.dot-article {
+  position: absolute;
+  max-width: 320px;
+  padding: 1rem;
+  background-color: #111111;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  z-index: 0;
+  opacity: 1;
+  pointer-events: none;
+}
+
+/* Staggered Article Layouts */
+.article-top {
+  transform: translateY(-160%);
+}
+
+.article-bottom {
+  transform: translateY(160%);
+}
+
+/* Responsive Typography */
+.text-responsive-h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.text-responsive-h5 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+/* Text Color Utility */
+.text-primary {
+  color: var(--primary);
+}
+
+.text-text {
+  color: #d4d4d4;
+}
+
+/* Optional: Make Articles Fade In on Hover */
+.dot:hover .dot-article {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* 2XL hidden override */
+@media (min-width: 1536px) {
+  .2xl\:hidden-dot {
+    display: none !important;
+  }
+}
