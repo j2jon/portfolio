@@ -605,7 +605,7 @@ nav.floating-dots a:hover {
   background-color: var(--primary);
   border-radius: 4px;
   transition: width 0.4s ease;
-  width: 0%;
+  width: 100%;
 }
 
 /* Dot base */
@@ -666,22 +666,31 @@ nav.floating-dots a:hover {
   transform: translateY(150%);
 }
 
+/* Only show mobile dots & articles on small screens */
 @media (min-width: 1536px) {
-  .2xl\\:hidden-dot {
+  .2xl\:hidden-dot {
     display: none !important;
   }
 
-  .2xl\\:after\\:!border-secondary::after {
+  .2xl\:after\:!border-secondary::after {
     border-color: var(--secondary) !important;
   }
 }
 
+/* Timeline horizontal scroll (mobile) */
 .timeline-container {
-  scroll-snap-type: x mandatory;
   overflow-x: auto;
-  overflow-y: hidden;
-  display: flex;
-  flex-direction: column;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* Desktop override: disable horizontal scroll */
+@media (min-width: 1536px) {
+  .timeline-container {
+    overflow: visible;
+    scroll-snap-type: none;
+  }
 }
 
 .scroll-snap {
