@@ -138,10 +138,80 @@
   </section>
 
 
-  <section id="work">
-    <h2>Work</h2>
-    <p>Recent projects or companies worked for...</p>
+  <section id="work" class="page relative mx-4 h-[100dvh] overflow-hidden py-4 2xl:mx-40 2xl:py-28 flex flex-col justify-center">
+    <header class="mb-2 flex gap-4 font-subheader text-primary text-responsive-h2 2xl:mb-8 2xl:gap-8">
+      <div>WORK</div>
+      <span class="text-secondary">{</span>
+    </header>
+  
+    <div class="relative flex h-[70%] flex-col gap-8 pl-4 2xl:h-auto 2xl:w-[90%] 2xl:flex-1 2xl:gap-20 2xl:pl-8">
+      <p class="hidden transition-all 2xl:block">
+        I’ve held roles across engineering, data, and cybersecurity. Each experience pushed me technically and sharpened my leadership.
+      </p>
+      <p class="absolute 2xl:hidden">DRAG TO EXPLORE</p>
+  
+      <div class="timeline-container">
+        <section class="timeline-track" style="--experiences:5;">
+          <!-- Years -->
+          <div class="timeline-year">2016</div>
+          <div class="timeline-line-wrapper">
+            <div class="timeline-line"></div>
+            <div class="timeline-progress"></div>
+          </div>
+          <div class="timeline-year">2025</div>
+  
+          <!-- Dots -->
+          <div class="timeline-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+  
+          <!-- Labels -->
+          <div class="timeline-labels">
+            <div class="label">ABC Corp</div>
+            <div class="label">ABF</div>
+            <div class="label">DFSDF</div>
+            <div class="label">SDS</div>
+            <div class="label">SDSDS</div>
+          </div>
+  
+          <!-- Entries -->
+          <div class="timeline-entries">
+            <div class="entry entry-bottom">
+              <header>Software Engineer Consultant</header>
+              <p>Consulted on enterprise-grade applications across industries.</p>
+              <footer>2016–Present</footer>
+            </div>
+            <div class="entry entry-top">
+              <header>ETL Developer</header>
+              <p>Built pipelines transforming large datasets.</p>
+              <footer>2019–2021</footer>
+            </div>
+            <div class="entry entry-bottom">
+              <header>Technical Team Lead</header>
+              <p>Led teams and delivered complex solutions.</p>
+              <footer>2021–2024</footer>
+            </div>
+            <div class="entry entry-top">
+              <header>Reverse Engineer</header>
+              <p>Reverse engineered malware and produced intelligence reports.</p>
+              <footer>2024</footer>
+            </div>
+            <div class="entry entry-bottom">
+              <header>Cybersecurity Architect</header>
+              <p>Designed secure architectures and implemented zero-trust.</p>
+              <footer>2025</footer>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <span class="mt-2 font-subheader text-secondary text-responsive-h2 2xl:mt-8">}</span>
   </section>
+
 
   <section id="blog">
     <h2>Blog</h2>
