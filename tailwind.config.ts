@@ -5,8 +5,8 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx,vue}"],
   theme: {
     colors: {
-      primary: "#f2ff5b",
-      secondary: "#89ff69",
+      primary: "#fef08a",
+      secondary: "#a3e635",
       text: "#e1e1e1",
       "text-secondary": "#c9c9c9",
       background: "#0c0c0c"
