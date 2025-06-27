@@ -159,3 +159,59 @@ body.dark-theme {
   color: #444;
   margin: 0 0.5rem;
 }
+
+.navbar {
+  background-color: #0f0f0f;
+  color: #e5e7eb;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.navbar-left {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #d1d5db;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.navbar-right a {
+  text-decoration: none;
+  color: #e5e7eb;
+  transition: color 0.3s ease;
+}
+
+.navbar-right a span {
+  color: #a3e635;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.navbar-right a:hover {
+  color: #a3e635;
+}
+
+.divider {
+  color: #555;
+  margin: 0 0.25rem;
+}
