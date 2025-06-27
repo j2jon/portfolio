@@ -407,11 +407,12 @@ nav.floating-dots a:hover {
   background-color: #fef08a; /* yellow (active) */
 }
 
-.skills-section {
-  margin-top: 6rem;
-  padding-left: 7rem;
-  padding-right: 2rem;
+.skills-section,
+.skills-content {
+  padding-left: 0;
+  margin-left: 0;
 }
+
 
 .skills-header .curly {
   color: #a3e635;
