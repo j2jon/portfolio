@@ -545,7 +545,7 @@ nav.floating-dots a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100%; /* Match column height */
+  min-height: 14rem;
 }
 
 .divider-core {
