@@ -345,3 +345,26 @@ body.dark-theme {
 .highlight {
   color: #a3e635;
 }
+
+.section-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3rem;                /* Match large size */
+  font-weight: 700;
+  color: #fef08a;                 
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.section-title .curly {
+  color: #a3e635;                 /* Light green */
+  font-size: 3rem;
+}
+
+.section-title .end {
+  display: block;
+  margin-top: 1.5rem;
+  font-size: 3rem;
+  color: #a3e635;
+}
