@@ -279,102 +279,71 @@ body.dark-theme {
 }
 
 .about-section {
-  padding: 6rem 7rem;
-  background-color: #0f0f0f;
-  color: #e5e7eb;
-}
-
-.about-wrapper {
-  display: flex;
-  align-items: flex-start;   /* Aligns content to the top */
-  gap: 3rem;
-  padding-left: 7rem;
+  padding-top: 5rem;
+  padding-left: 3rem;
   padding-right: 2rem;
-  padding-top: 8rem;
-  padding-bottom: 6rem;
 }
 
-.about-wrapper {
+.about-header {
   display: flex;
-  align-items: flex-start; /*  ensures top alignment */
-  gap: 4rem;
-  padding: 6rem 2rem;
-  padding-left: 7rem; /* match hero section's alignment */
-}
-
-.about-left {
-  flex: 1;
-  min-width: 280px;
-  max-width: 480px;
-}
-
-.about-right {
-  flex: 1;
-  min-width: 300px;
-  max-width: 700px;
-  font-size: 1.05rem;
-  line-height: 1.75;
-}
-
-.about-right p {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.125rem;       /* 18px */
-  font-weight: 500;
-  line-height: 1.7;
-  color: #e5e7eb;
-  max-width: 640px;
-  margin-bottom: 1rem;
-}
-
-.section-title {
+  gap: 1rem;
   font-family: 'Quicksand', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #fef08a;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
+  align-items: center;
 }
 
 .curly {
   color: #a3e635;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
-.curly.end {
-  display: block;
-  margin-top: 2rem;
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
-.about-subtitle {
-  font-size: 1.125rem;
+@media (min-width: 1280px) {
+  .about-wrapper {
+    flex-direction: row;
+    gap: 6rem;
+  }
+}
+
+.about-left, .about-right {
+  flex: 1;
   color: #e5e7eb;
-  margin-bottom: 1.5rem;
-  font-family: 'Inter', sans-serif;
+  font-size: 1.125rem;
   line-height: 1.7;
-}
-
-.highlight {
-  color: #a3e635;
 }
 
 .section-title {
   font-family: 'Quicksand', sans-serif;
-  font-size: 3rem;                /* Match large size */
+  font-size: 3rem;               /* Matches hero title size */
   font-weight: 700;
-  color: #fef08a;                 
+  color: #fef08a;
   letter-spacing: 1px;
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-.section-title .curly {
-  color: #a3e635;                 /* Light green */
+
+.curly {
+  color: #a3e635;
   font-size: 3rem;
 }
 
-.section-title .end {
+.curly.end {
   display: block;
   margin-top: 1.5rem;
   font-size: 3rem;
+  color: #a3e635;
+}
+
+.highlight {
   color: #a3e635;
 }
