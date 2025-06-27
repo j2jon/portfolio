@@ -71,7 +71,7 @@ body.dark-theme {
   flex-direction: column;
   justify-content: center;  /* vertically center content */
   align-items: flex-start;  /* left-align text */
-  padding-left: 7rem;      
+  padding-left: 3rem;      
   padding-right: 2rem;
   padding-top: 0;
   padding-bottom: 0;
