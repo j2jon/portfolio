@@ -591,3 +591,99 @@ nav.floating-dots a:hover {
 .bg-secondary {
   background-color: #a3e635; /* adjust as needed */
 }
+
+/* Timeline track line */
+.line {
+  height: 4px;
+  background-color: var(--secondary);
+  border-radius: 4px;
+  width: 100%;
+}
+
+.line-secondary {
+  height: 4px;
+  background-color: var(--primary);
+  border-radius: 4px;
+  transition: width 0.4s ease;
+  width: 0%;
+}
+
+/* Dot base */
+.dot-border {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.dot-border::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  background-color: #0f0f0f;
+  transition: border-color 0.3s ease;
+}
+
+/* Dot title label above dot */
+.dot-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot-title::before {
+  content: attr(style);
+  content: var(--text);
+  position: absolute;
+  top: -2rem;
+  white-space: nowrap;
+  font-size: 0.875rem;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+/* Dot article (popup box on mobile) */
+.dot-article {
+  background-color: #1a1a1a;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  color: #e5e7eb;
+  text-align: left;
+}
+
+.article-top {
+  transform: translateY(-150%);
+}
+
+.article-bottom {
+  transform: translateY(150%);
+}
+
+@media (min-width: 1536px) {
+  .2xl\\:hidden-dot {
+    display: none !important;
+  }
+
+  .2xl\\:after\\:!border-secondary::after {
+    border-color: var(--secondary) !important;
+  }
+}
+
+.timeline-container {
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-snap {
+  scroll-snap-align: center;
+}
