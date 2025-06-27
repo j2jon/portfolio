@@ -406,3 +406,89 @@ nav.floating-dots a.active,
 nav.floating-dots a:hover {
   background-color: #fef08a; /* yellow (active) */
 }
+
+.skills-section {
+  margin-top: 6rem;
+  padding-left: 7rem;
+  padding-right: 2rem;
+}
+
+.skills-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  color: #fef08a;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.skills-header .curly {
+  color: #a3e635;
+  font-size: 3rem;
+}
+
+.skills-summary {
+  font-family: 'Inter', sans-serif;
+  color: #e5e7eb;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  max-width: 800px;
+  margin-bottom: 3rem;
+}
+
+.skills-lists {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.skills-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  color: #e5e7eb;
+}
+
+.skill-item img {
+  width: 24px;
+}
+
+.skill-divider {
+  position: relative;
+}
+
+.divider-core {
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background-color: #a3e635;
+  top: -20%;
+  height: 140%;
+}
+
+.divider-glow {
+  position: absolute;
+  height: 100%;
+  width: 6px;
+  background-color: #a3e635;
+  filter: blur(10px);
+  top: -20%;
+  height: 140%;
+}
+
+.curly-end {
+  display: block;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-family: 'Quicksand', sans-serif;
+  color: #a3e635;
+}
