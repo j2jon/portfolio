@@ -552,6 +552,7 @@ nav.floating-dots a:hover {
   width: 2px;
   height: 100%;
   background-color: #a3e635;
+  position: relative;
   z-index: 1;
 }
 
@@ -561,6 +562,8 @@ nav.floating-dots a:hover {
   height: 100%;
   background-color: #a3e635;
   filter: blur(10px);
+  top: 0;
+  left: -2px; /* center the glow behind the core */
   z-index: 0;
 }
 
