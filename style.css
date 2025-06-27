@@ -379,13 +379,3 @@ nav.floating-dots a:hover {
 @media (min-width: 1536px) {
   .timeline-entries { display: flex; }
 }
-
-.fade-in {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
-.fade-in.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
