@@ -200,7 +200,7 @@ body.dark-theme {
 .navbar-container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 1.2rem 2.5rem;
+  padding: 1.2rem 2rem 1.2rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
