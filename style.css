@@ -541,11 +541,11 @@ nav.floating-dots a:hover {
 }
 
 .skills-divider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 12rem;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%; /* Match column height */
 }
 
 .divider-core {
