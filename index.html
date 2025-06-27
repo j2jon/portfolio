@@ -40,58 +40,65 @@
         <a href="#about" class="btn secondary">Learn More →</a>
       </div>
     </section>
-
-    <section id="about" class="about-section">
-      <header class="about-header">
-        <div>ABOUT</div>
-        <span class="curly">{</span>
-      </header>
-
-      <div class="about-wrapper">
-        <div class="about-left">
-            <p>Technical Expert</p>
-            <p>Passionate Mentor</p>
-            <p>Lifelong Learner</p>
-        </div>
-
-        <div class="about-right">
-          <p>Technical expert passionate about building smart solutions and mentoring young adults.</p>
-          <p>I combine hands-on experience in tech with a commitment to guiding others through career advice, skill building, and personal growth.</p>
-          <p>Empowering the next generation is at the heart of what I do.</p>
-        </div>
-      </div>
-    </section>
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Python, JavaScript</li>
-        <li>Cloud Security (AWS, Azure)</li>
-        <li>Penetration Testing</li>
-      </ul>
-    </section>
-
-    <section id="work">
-      <h2>Work</h2>
-      <p>Recent projects or companies worked for...</p>
-    </section>
-
-    <section id="blog">
-      <h2>Blog</h2>
-      <p>Coming soon...</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email me at jonathan@jonathan-johnson.org</p>
-    </section>
-  
-    <section id="resume">
-      <h2>Resume</h2>
-      <a href="resume.pdf" download>Download My Resume</a>
-    </section>
-    
 </main>
-  </main>
+  <section id="about" class="about-section">
+    <header class="about-header">
+      <div>ABOUT</div>
+      <span class="curly">{</span>
+    </header>
+
+    <div class="about-wrapper">
+      <div class="about-left">
+          <p>Technical Expert</p>
+          <p>Passionate Mentor</p>
+          <p>Lifelong Learner</p>
+      </div>
+
+      <div class="about-right">
+        <p>Technical expert passionate about building smart solutions and mentoring young adults.</p>
+        <p>I combine hands-on experience in tech with a commitment to guiding others through career advice, skill building, and personal growth.</p>
+        <p>Empowering the next generation is at the heart of what I do.</p>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, JavaScript</li>
+      <li>Cloud Security (AWS, Azure)</li>
+      <li>Penetration Testing</li>
+    </ul>
+  </section>
+
+  <section id="work">
+    <h2>Work</h2>
+    <p>Recent projects or companies worked for...</p>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <p>Coming soon...</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email me at jonathan@jonathan-johnson.org</p>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" download>Download My Resume</a>
+  </section>
+  
+  <nav class="fixed right-40 top-1/2 z-10 hidden -translate-y-1/2 flex-col gap-4 2xl:flex">
+    <a href="#vanta" class="aspect-square h-4 rounded-full transition-all bg-primary" aria-label="Home"></a>
+    <a href="#about" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="About"></a>
+    <a href="#skills" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="Skills"></a>
+    <a href="#work" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="Work"></a>
+    <a href="#projects" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="Blog"></a>
+    <a href="#contact" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="Contact"></a>
+  </nav>
+  
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script>
     var typed = new Typed('#typed', {
@@ -187,14 +194,6 @@
 
   sections.forEach(section => observer.observe(section));
   </script>
-  <!-- Floating Nav Dots -->
-  <nav class="fixed right-40 top-1/2 z-10 hidden -translate-y-1/2 flex-col gap-4 2xl:flex">
-    <a href="#vanta" class="aspect-square h-4 rounded-full transition-all bg-primary" aria-label="Home"></a>
-    <a href="#about" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="About"></a>
-    <a href="#skills" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="Skills"></a>
-    <a href="#work" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="Work"></a>
-    <a href="#projects" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="Blog"></a>
-    <a href="#contact" class="aspect-square h-4 rounded-full transition-all bg-text" aria-label="Contact"></a>
-  </nav>
+
 </body>
 </html>
