@@ -955,11 +955,8 @@ nav.floating-dots a:hover {
 }
 
 .timeline-track {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  min-width: calc(var(--experiences) * 60vh);
+  width: 100%;
+  min-width: unset;
 }
 
 .timeline-year {
