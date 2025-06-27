@@ -8,13 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-left: 3rem; /* Adjust this until nav and hero align exactly */
-  padding-right: 2rem;
-}
-
 body.dark-theme {
   background-color: #0f0f0f;
   color: #fff;
@@ -204,11 +197,14 @@ body.dark-theme {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.container {
+.navbar-container {
   max-width: 1440px;
   margin: 0 auto;
   padding-left: 7rem;
   padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-left {
