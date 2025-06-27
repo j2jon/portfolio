@@ -55,18 +55,16 @@ body.dark-theme {
 }
 
 .hero-glow {
-  position: relative;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;  /* vertically center content */
-  align-items: flex-start;  /* left-align text */
-  padding-left: 7rem;       /* push content to match Daniel's indent */
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 8rem;
+  padding-left: 3rem;
   padding-right: 2rem;
-  padding-top: 0;
-  padding-bottom: 0;
-  max-width: none;          /* allow full width */
-  margin: 0;                /* REMOVE auto-centering */
 }
 
 .glow-name {
@@ -80,12 +78,11 @@ body.dark-theme {
 }
 
 .title {
-  font-size: 2rem;
-  font-weight: 400;
-  color: #a3e635;
+  font-size: 1.25rem;
+  letter-spacing: 3px;
+  color: #4ade80;
+  margin-bottom: 1.25rem;
   font-family: 'Inter', sans-serif;
-  letter-spacing: 0.15rem;
-  margin-bottom: 2rem;
 }
 
 .tagline {
