@@ -330,20 +330,6 @@ body.dark-theme {
   margin-bottom: 1.5rem;
 }
 
-.about-arch {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 1rem;
-  color: #a3e635;
-  font-weight: 500;
-}
-
-.arch-logo {
-  height: 1.5rem;
-  width: auto;
-}
-
 .highlight {
   color: #a3e635;
 }
