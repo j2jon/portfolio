@@ -248,8 +248,11 @@ body.dark-theme {
 }
 
 #typed {
-  font-size: 1.75rem; /* Try 2rem if you want it even larger */
-  font-weight: 600;
+  font-family: 'Space Mono', monospace;
+  font-size: 2.5rem;  /* Adjust to match size */
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+  color: #a3e635;
   text-transform: uppercase;
-  font-family: 'Inter', sans-serif;
 }
+
