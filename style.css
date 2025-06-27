@@ -53,13 +53,13 @@ body.dark-theme {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  max-width: 720px;
+  align-items: flex-start; /* Keep text left-aligned */
+  min-height: 100vh;
+  max-width: 700px;
   margin: 0 auto;
-  padding: 6rem 2.5rem 4rem;
-  text-align: left;
-  position: relative;
-  z-index: 2;
+  padding-top: 8rem; /* Creates more space below navbar */
+  padding-left: 3rem; /* Gives more left offset */
+  padding-right: 2rem;
 }
 
 .glow-name {
