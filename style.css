@@ -90,6 +90,7 @@ body.dark-theme {
 .cta-buttons {
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap; /* responsive on mobile */
 }
 
 .btn {
@@ -223,4 +224,23 @@ body.dark-theme {
 
 .navbar-right a:hover {
   color: #a3e635;
+}
+
+@media (max-width: 768px) {
+  .hero-glow {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .glow-name {
+    font-size: 2.5rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .tagline {
+    font-size: 0.95rem;
+  }
 }
