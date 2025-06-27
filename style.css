@@ -246,3 +246,10 @@ body.dark-theme {
     font-size: 0.95rem;
   }
 }
+
+#typed {
+  font-size: 1.75rem; /* Try 2rem if you want it even larger */
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+}
