@@ -491,3 +491,36 @@ nav.floating-dots a:hover {
   margin: 0 auto;
 }
 
+.skills-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  /* Use row layout on larger screens */
+  @media (min-width: 1024px) {
+    flex-direction: row;
+  }
+}
+
+.skills-left {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.skills-right {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  color: #e5e7eb;
+}
+.skill-item img {
+  width: 1.5rem;
+}
