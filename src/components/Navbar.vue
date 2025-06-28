@@ -2,7 +2,7 @@
   <header
     class="fixed left-0 top-0 z-30 hidden w-full items-center justify-between bg-background px-4 py-4 text-responsive-h6 2xl:flex 2xl:px-40 2xl:pt-12"
   >
-    <FromAbove is="div">DRAG ANYWHERE</FromAbove>
+    <FromAbove is="div">JONATHAN JOHNSON</FromAbove>
     <nav>
       <ul class="flex gap-6 uppercase">
         <FromAbove
@@ -29,7 +29,7 @@
   <header
     class="fixed left-0 top-0 z-30 flex w-full items-center justify-between px-4 py-4 text-responsive-h6 2xl:hidden"
   >
-    <span>DRAG ANYWHERE</span>
+    <span>JONATHAN JOHNSON</span>
     <Hamburger :open="navOpen" @toggle="navOpen = !navOpen" />
   </header>
 
