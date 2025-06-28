@@ -8,7 +8,7 @@
       <VariableFontTypingText text="MAKE YOU FEEL WORTHLESS" :delay="5000" />
       
     </header>
-    */<Typing class="ml-[40vw] mt-4 text-center" :delay="4800">— TONI MORRISON</Typing>
+    <!--<Typing class="ml-[40vw] mt-4 text-center" :delay="4800">— TONI MORRISON</Typing>-->
   </PageWrapper>
 </template>
 
