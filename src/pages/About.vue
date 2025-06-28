@@ -9,11 +9,6 @@
           <p>Passionate Mentor</p>
           <p>Lifelong Learner</p>
         </div>
-
-        <div class="hidden gap-2 text-secondary 2xl:flex">
-          <img src="/icons/arch.png" alt="archlinux" />
-          <span>I use Arch btw</span>
-        </div>
       </div>
 
       <p class="mb-8 2xl:mb-0">
@@ -23,10 +18,6 @@
         <br />
         My mission is to empower others through mentorship, sharing knowledge, and continuous learning.
       </p>
-    </div>
-    <div class="ml-4 flex gap-2 text-secondary 2xl:hidden">
-      <img src="/icons/arch.png" alt="archlinux" />
-      <span>I use Arch btw</span>
     </div>
 
     <CloseBracket />
