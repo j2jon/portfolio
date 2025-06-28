@@ -5,8 +5,8 @@
     >
       <VariableFontTypingText text="“WHEN YOU KNOW YOUR" />
       <VariableFontTypingText text="WORTH, NO ONE CAN" :delay="2000" />
-      <VariableFontTypingText text="MAKE YOU FEEL" :delay="5000" />
-      <VariableFontTypingText text="WORTHLESS”" :delay="7000" />
+      <VariableFontTypingText text="MAKE YOU FEEL" :delay="4000" />
+      <VariableFontTypingText text="WORTHLESS”" :delay="6000" />
       
     </header>
     <!--<Typing class="ml-[40vw] mt-4 text-center" :delay="4800">— TONI MORRISON</Typing>-->
