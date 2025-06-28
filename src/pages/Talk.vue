@@ -5,7 +5,8 @@
     >
       <VariableFontTypingText text="“MAKE A DIFFERENCE" />
       <VariableFontTypingText text="ABOUT SOMETHING" :delay="2000" />
-      <VariableFontTypingText text="OTHER THAN YOURSELVES.”" :delay="2000" />
+      <VariableFontTypingText text="OTHER THAN" :delay="5000" />
+      <VariableFontTypingText text="YOURSELVES.”" :delay="8000" />
 
     </header>
     <Typing class="ml-[40vw] mt-4 text-center" :delay="4800">— TONI MORRISON</Typing>
