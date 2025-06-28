@@ -99,7 +99,7 @@ const EXPERIENCES = [
   {
     start: 2024,
     title: "Reverse Engineer",
-    text: "Analyzed and dissected malware to understand its behavior and help build effective defenses",
+    text: "Analyzed advanced threats targeting sensitive systems",
     note: "January 2024 - January 2025"
   },
 
