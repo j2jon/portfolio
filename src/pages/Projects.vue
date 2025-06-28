@@ -5,7 +5,7 @@
     ref="page"
     v-bind="props"
   >
-    <Header>PROJECTS</Header>
+    <Header>PUBLICATIONS</Header>
 
     <Projects class="flex-1" ref="projects" />
 
