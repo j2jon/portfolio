@@ -7,25 +7,21 @@
         <div>My inbox is always open for new opportunities.</div>
 
         <div class="mt-16 hidden flex-col gap-4 2xl:flex">
-          <a href="https://github.com/Myphz" target="_blank" class="flex w-fit items-center gap-2">
-            <img src="/icons/github.png" class="img" alt="github" />
-            <span>Myphz</span>
-          </a>
           <a
-            href="mailto:danielscanu45@outlook.it"
+            href="mailto:jonathan@jonathan-johnson.org"
             target="_blank"
             class="flex w-fit items-center gap-2"
           >
             <img src="/icons/email.svg" class="img scale-[0.8]" alt="email" />
-            <span>danielscanu45@outlook.it</span>
+            <span>jonathan@jonathan-johnson.org</span>
           </a>
           <a
-            href="https://www.linkedin.com/in/danielscanu/"
+            href="https://www.linkedin.com/in/jonathan-johnson-87b799171/"
             target="_blank"
             class="flex w-fit items-center gap-2"
           >
             <img src="/icons/linkedin.png" class="img" alt="linkedin" />
-            <span>Daniel Scanu</span>
+            <span>Jonathan Johnson</span>
           </a>
         </div>
       </div>
@@ -48,25 +44,21 @@
       </form>
 
       <div class="flex flex-col gap-2 2xl:hidden">
-        <a href="https://github.com/Myphz" target="_blank" class="flex w-fit items-center gap-2">
-          <img src="/icons/github.png" class="img" alt="github" />
-          <span>Myphz</span>
-        </a>
         <a
-          href="mailto:danielscanu45@outlook.it"
+          href="mailto:jonathan@jonathan-johnson.org"
           target="_blank"
           class="flex w-fit items-center gap-2"
         >
           <img src="/icons/email.svg" class="img scale-[0.8]" alt="email" />
-          <span>danielscanu45@outlook.it</span>
+          <span>jonathan@jonathan-johnson.org</span>
         </a>
         <a
-          href="https://www.linkedin.com/in/danielscanu/"
+          href="https://www.linkedin.com/in/jonathan-johnson-87b799171/"
           target="_blank"
           class="flex w-fit items-center gap-2"
         >
           <img src="/icons/linkedin.png" class="img" alt="linkedin" />
-          <span>Daniel Scanu</span>
+          <span>Jonathan Johnson</span>
         </a>
       </div>
     </section>
