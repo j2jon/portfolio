@@ -9,10 +9,9 @@
         class="hidden transition-all"
         :class="textVisible ? '2xl:block' : '2xl:hidden-dot 2xl:block'"
       >
-        I had the opportunity to work for many companies with many different technologies, from
-        small startups to bigger companies.
+        I had the opportunity to work for many companies with many different technologies.
         <br />
-        Each experience taught me something and I continuously improved in my learning journey.
+        Turning ideas into results.
       </p>
 
       <p class="absolute 2xl:hidden">DRAG TO EXPLORE</p>
