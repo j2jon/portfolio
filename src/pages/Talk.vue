@@ -4,7 +4,9 @@
       class="relative flex w-fit flex-col items-center text-[8vw] font-extralight leading-none text-primary before:text-secondary after:text-secondary 2xl:text-[5vw]"
     >
       <VariableFontTypingText text="“MAKE A DIFFERENCE" />
-      <VariableFontTypingText text="ABOUT SOMETHING OTHER THAN YOURSELVES.”" :delay="2000" />
+      <VariableFontTypingText text="ABOUT SOMETHING" :delay="2000" />
+      <VariableFontTypingText text="OTHER THAN YOURSELVES.”" :delay="2000" />
+
     </header>
     <Typing class="ml-[40vw] mt-4 text-center" :delay="4800">— TONI MORRISON</Typing>
   </PageWrapper>
