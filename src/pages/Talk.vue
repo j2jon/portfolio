@@ -4,9 +4,9 @@
       class="relative flex w-fit flex-col items-center text-[8vw] font-extralight leading-none text-primary before:text-secondary after:text-secondary 2xl:text-[5vw]"
     >
       <VariableFontTypingText text="“TALK IS CHEAP." />
-      <VariableFontTypingText text="SHOW ME THE CODE”" :delay="2000" />
+      <VariableFontTypingText text="THE STRUGGLE YOU'RE IN TODAY IS DEVELOPING THE STRENGTH YOU NEED FOR TOMORROW.”" :delay="2000" />
     </header>
-    <Typing class="ml-[40vw] mt-4 text-center" :delay="4800">- Linus Torvalds</Typing>
+    <Typing class="ml-[40vw] mt-4 text-center" :delay="4800">— ROBERT TEW</Typing>
   </PageWrapper>
 </template>
 
