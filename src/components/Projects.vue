@@ -34,9 +34,8 @@ const breakpoints = {
 
 const PROJECTS = [
   {
-    name: "dsfdsfsc",
-    redirect: "https://play.google.com/store/apps/details?id=com.tripsphoexa.app",
-    description: "Cccccccc",
+    name: "Coming soon",
+    description: "",
   }
 ] as const;
 </script>
