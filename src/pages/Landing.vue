@@ -4,8 +4,8 @@
       <MainText />
       <TypingAlternate class="leading-none 2xl:max-w-[50vw]" :tokens="HEADLINES" />
       <p class="2xl:-mt-3 2xl:max-w-[40vw]">
-        Self-taught programmer motivated by passion and personal projects. Expert of searching bugs
-        on Google and quickly scanning the best StackOverflow answers.
+        Self-taught cybersecurity architect and software engineer, passionate about mentoring others, building meaningful projects, and continuously growing into the best version of myself.
+        Expert in securing systems and building solutions with purpose.
       </p>
 
       <div class="button-container mt-6 flex gap-3 2xl:gap-6">
@@ -41,13 +41,11 @@ const redirect = (to: string) => {
 const props = defineProps<PageProps>();
 
 const HEADLINES = [
-  "SOFTWARE ENGINEER",
-  "WEB DEVELOPER",
-  "FULL STACK DEVELOPER",
-  "EXPERT GOOGLE SEARCHER",
-  "BUG DEVELOPER",
-  "CODE WIZARD",
-  "RUST ENJOYER"
+  "CYBERSECURITY INNOVATOR",
+  "FULL STACK SOFTWARE ENGINEER",
+  "REVERSE ENGINEER",
+  "DATA SCIENTIST",
+  "MENTOR &amp; TECHNOLOGIST"
 ];
 </script>
 
