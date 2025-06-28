@@ -5,10 +5,10 @@
     >
       <VariableFontTypingText text="“WHEN YOU KNOW YOUR" />
       <VariableFontTypingText text="WORTH NO ONE CAN" :delay="2000" />
-      <VariableFontTypingText text="MAKE YOU FEEL WORTHLESS" :delay="6000" />
+      <VariableFontTypingText text="MAKE YOU FEEL WORTHLESS" :delay="5000" />
       
     </header>
-    <Typing class="ml-[40vw] mt-4 text-center" :delay="4800">— TONI MORRISON</Typing>
+    */<Typing class="ml-[40vw] mt-4 text-center" :delay="4800">— TONI MORRISON</Typing>
   </PageWrapper>
 </template>
 
