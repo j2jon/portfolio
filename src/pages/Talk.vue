@@ -3,9 +3,9 @@
     <header
       class="relative flex w-fit flex-col items-center text-[8vw] font-extralight leading-none text-primary before:text-secondary after:text-secondary 2xl:text-[5vw]"
     >
-      <VariableFontTypingText text="“MAKE A DIFFERENCE" />
-      <VariableFontTypingText text="ABOUT SOMETHING" :delay="2000" />
-      <VariableFontTypingText text="OTHER THAN" :delay="5000" />
+      <VariableFontTypingText text="“WHEN YOU KNOW YOUR WORTH," />
+      <VariableFontTypingText text="NO ONE CAN MAKE YOU" :delay="2000" />
+      <VariableFontTypingText text="FEEL WORTHLESS" :delay="5000" />
       <VariableFontTypingText text="YOURSELVES.”" :delay="8000" />
 
     </header>
