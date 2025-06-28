@@ -4,10 +4,10 @@
 
     <div class="flex flex-col gap-8 pl-4 2xl:w-[90%] 2xl:flex-row 2xl:gap-60 2xl:pl-8">
       <p>
-        I excel in dissecting complex problems into manageable tasks, essential for crafting robust,
-        maintainable code in large-scale projects. I'm driven by challenges, always seeking
-        opportunities to enhance my skills. My self-directed learning approach empowers me to
-        quickly grasp and adapt to new technologies autonomously.
+        Over the years, I’ve developed a wide range of skills across different disciplines. 
+        While not every skill can be listed here, these are some of the areas where I 
+        bring the most experience and value. From concept to execution, 
+        I’m always learning and expanding my toolkit.
       </p>
 
       <div class="flex justify-between 2xl:gap-40">
