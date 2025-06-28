@@ -32,7 +32,7 @@ const breakpoints = {
   }
 };
 
-const PUBLICATIONS = [
+const PROJECTS = [
   {
     name: "Coming soon",
     description: "",
