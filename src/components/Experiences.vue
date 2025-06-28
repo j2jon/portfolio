@@ -91,29 +91,29 @@ const secondaryColor = config.theme.colors.secondary;
 const emit = defineEmits(["experienceFocus", "experienceUnfocus"]);
 const EXPERIENCES = [
   {
-    start: 2023,
-    title: "ContinuumLab",
-    text: "As a senior front-end developer, I designed a social-media platform interface, connecting to Strapi CMS with GraphQL & real-time capabilities, and integrating authentication providers",
-    note: "USA | Nov 2022 - Current"
+    start: 2025,
+    title: "Cybersecurity Architect",
+    text: "Developed and secured mission-critical systems",
+    note: "February 2025 - Current"
   },
   {
-    start: 2022,
-    title: "Way AS",
-    text: "Designed booking & payment infrastructure and created a mobile app for automated bookings at a simulator-based driving school.",
-    note: "Norway | Aug 2022 - Jun 2023"
+    start: 2024,
+    title: "Reverse Engineer",
+    text: "Analyzed and dissected malware to understand its behavior and help build effective defenses",
+    note: "January 2024 - January 2025"
   },
 
   {
-    start: 2020,
-    title: "pianobit s.r.l",
-    text: "Led NodeJS full-stack development for a SaaS firm, with robust microservices and real-time trading features. Developed secure solutions and a seamless Vue.js interface for file sharing.",
-    note: "Italy | Jun 2020 - Jul 2022"
+    start: 2021,
+    title: "Cybersecurity Systems Engineer",
+    text: "Designed, built, and secured complex systems to protect critical data and infrastructure",
+    note: "November 2021 - January 2024"
   },
   {
     start: 2018,
-    title: "Freelancer",
-    text: "I've worked for hundreds of clients as a freelancer in many different fields of programming, from GUI development to Machine Learning & AI",
-    note: "Worldwide | Jan 2018 - Feb 2022"
+    title: "ETL Developer",
+    text: "Developed and optimized ETL pipelines to transform raw data into reliable, actionable insights.",
+    note: "December 2018 - November 2021"
   }
 ].sort((exp1, exp2) => exp1.start - exp2.start);
 
