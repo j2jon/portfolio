@@ -24,19 +24,19 @@
       </div>
 
       <div class="flex gap-4 2xl:translate-y-1/2 2xl:flex-col">
-        <a href="https://github.com/Myphz" target="_blank">
+        <a href="https://github.com/" target="_blank">
           <img src="/icons/github.png" alt="github" />
         </a>
-        <a href="https://www.linkedin.com/in/danielscanu/" target="_blank">
+        <a href="https://www.linkedin.com/in/jonathan-johnson-87b799171/" target="_blank">
           <img src="/icons/linkedin.png" alt="linkedin" />
         </a>
       </div>
 
       <a
         class="text-secondary underline 2xl:translate-y-1/2"
-        href="mailto:danielscanu45@outlook.it"
+        href="mailto:jonathan@jonathan-johnson.org"
       >
-        danielscanu45@outlook.it
+        jonathan@jonathan-johnson.org
       </a>
     </section>
   </footer>
