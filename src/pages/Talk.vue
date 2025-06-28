@@ -3,10 +3,10 @@
     <header
       class="relative flex w-fit flex-col items-center text-[8vw] font-extralight leading-none text-primary before:text-secondary after:text-secondary 2xl:text-[5vw]"
     >
-      <VariableFontTypingText text="“THE STRUGGLE YOU'RE IN TODAY IS DEVELOPING THE STRENGTH YOU NEED FOR TOMORROW." />
+      <VariableFontTypingText text="“MAKE A DIFFERENCE ABOUT SOMETHING OTHER THAN YOURSELVES." />
       <VariableFontTypingText text="" :delay="2000" />
     </header>
-    <Typing class="ml-[40vw] mt-4 text-center" :delay="4800">— ROBERT TEW</Typing>
+    <Typing class="ml-[40vw] mt-4 text-center" :delay="4800">— TONI MORRISON</Typing>
   </PageWrapper>
 </template>
 
