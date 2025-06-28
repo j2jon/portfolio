@@ -112,13 +112,13 @@ const EXPERIENCES = [
   {
     start: 2018,
     title: "ETL Developer",
-    text: "Developed and optimized ETL pipelines to transform raw data into reliable, actionable insights.",
+    text: "Developed and optimized ETL pipelines to transform raw data into reliable, actionable insights",
     note: "December 2018 - November 2021"
   },
   {
     start: 2016,
     title: "Software Engineer",
-    text: "Created and maintained software that drives business and innovation.",
+    text: "Created and maintained software that drives business and innovation",
     note: "February 2016 - Current"
   }
 ].sort((exp1, exp2) => exp1.start - exp2.start);
