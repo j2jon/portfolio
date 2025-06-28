@@ -46,7 +46,7 @@ export const PAGES: readonly Page[] = [
     id: "projects",
     name: "Projects",
     href: "#projects",
-    component: Publications
+    component: Projects
   },
   {
     id: "contact",
@@ -56,8 +56,8 @@ export const PAGES: readonly Page[] = [
   },
   {
     id: "resume",
-    name: "BIO",
-    href: "/bio.pdf"
+    name: "resume",
+    href: "/resume.pdf"
   }
 ] as const;
 
