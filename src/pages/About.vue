@@ -12,11 +12,11 @@
       </div>
 
       <p class="mb-8 2xl:mb-0">
-        Technical expert that's passionate about building smart solutions and mentoring young adults.
+        I specialize in designing secure systems, solving complex problems, and helping others grow their skills along the way.
         <br />
-        I combine hands-on experience in tech with a commitment to guiding others through career advice, skill building, and personal growth.
+        I leverage real-world experience to empower others with practical skills and clear direction.
         <br />
-        My mission is to empower others through mentorship, sharing knowledge, and continuous learning.
+        I’m dedicated to inspiring others to grow, learn, and unlock their full potential through mentorship, sharing knowledge, and continuous learning.
       </p>
     </div>
 
