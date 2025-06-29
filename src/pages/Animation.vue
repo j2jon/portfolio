@@ -86,8 +86,8 @@ type ToBoolean<T> = {
 const TIMES: Record<string, { delay: number; defaultValue?: boolean }> = {
   typeClear: { delay: 1200 },
   history: { delay: 3000, defaultValue: true },
-  firstLog: { delay: 6000 },
-  secondLog: { delay: 6900 }
+  firstLog: { delay: 6300 },
+  secondLog: { delay: 7200 }
 };
 
 const timers = reactive(
