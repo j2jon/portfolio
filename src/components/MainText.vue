@@ -3,7 +3,7 @@
     class="relative w-fit font-headers leading-none text-primary text-responsive-h1 after:bg-background"
     :class="{ 'text-animation': animated }"
   >
-    Daniel
+    Jonathan
   </div>
 </template>
 
