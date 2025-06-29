@@ -55,8 +55,8 @@ export const PAGES: readonly Page[] = [
     component: Contact
   },
   {
-    id: "resume",
-    name: "resume",
+    id: "bio",
+    name: "bio",
     href: "/resume.pdf"
   }
 ] as const;
