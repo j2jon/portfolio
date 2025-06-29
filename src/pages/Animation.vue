@@ -14,7 +14,7 @@
         <div>pwd</div>
       </div>
 
-      <div>/home/daniel/Documents</div>
+      <div>/home/jonathan/Documents</div>
 
       <div class="flex gap-4">
         <div class="font-bold">{{ BASE_PROMPT }}</div>
@@ -28,7 +28,7 @@
 
       <div>
         node_modules/ package-lock.json public/ src/ index.html package.json postcss.config.js
-        README.md tailwind.config.ts tsconfig.json vite.config.ts ddaniel.dev
+        README.md tailwind.config.ts tsconfig.json vite.config.ts jonathan-johnson.org
       </div>
 
       <div class="flex gap-4">
@@ -46,7 +46,7 @@
 
     <div class="flex gap-4" v-if="!timers.history">
       <div class="font-bold">{{ BASE_PROMPT }}</div>
-      <Typing :delay="500" :speed="10">exec ./ddaniel.dev</Typing>
+      <Typing :delay="500" :speed="10">exec ./jonathan-johnson.org</Typing>
     </div>
 
     <div v-show="timers.firstLog">Server starting...</div>
@@ -65,7 +65,7 @@ const emit = defineEmits(["endAnimation"]);
 
 const TOTAL_TIME = 8300;
 
-const BASE_PROMPT = "myphz@archlinux:$";
+const BASE_PROMPT = "jonathan@archlinux:$";
 
 type ToBoolean<T> = {
   [K in keyof T]: boolean;
