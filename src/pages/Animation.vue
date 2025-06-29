@@ -87,7 +87,7 @@ const TIMES: Record<string, { delay: number; defaultValue?: boolean }> = {
   typeClear: { delay: 1200 },
   history: { delay: 3000, defaultValue: true },
   firstLog: { delay: 5800 },
-  secondLog: { delay: 7800 }
+  secondLog: { delay: 6300 }
 };
 
 const timers = reactive(
