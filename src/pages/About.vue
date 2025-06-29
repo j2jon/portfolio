@@ -5,9 +5,9 @@
     <div class="flex flex-col gap-8 pl-4 2xl:w-[90%] 2xl:flex-row 2xl:gap-60 2xl:pl-8 [&>*]:flex-1">
       <div class="flex flex-col gap-8">
         <div>
-          <p>Technical Expert</p>
-          <p>Passionate Mentor</p>
-          <p>Lifelong Learner</p>
+          <p>Technical Innovator</p>
+          <p>Empowering Mentor</p>
+          <p>Lifelong Explorer</p>
         </div>
       </div>
 
