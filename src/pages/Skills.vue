@@ -41,8 +41,8 @@ const props = defineProps<PageProps>();
 
 const LANGUAGES = [
   {
-    name: "TypeScript",
-    icon: "ts"
+    name: "BurpSuite",
+    icon: "burpsuite"
   },
   {
     name: "JavaScript",
@@ -53,12 +53,12 @@ const LANGUAGES = [
     icon: "python"
   },
   {
-    name: "Rust",
-    icon: "rust"
+    name: "Bash",
+    icon: "bash"
   },
   {
-    name: "C",
-    icon: "c"
+    name: "Azure",
+    icon: "azure"
   }
 ];
 
@@ -68,20 +68,20 @@ const TECHNOLOGIES = [
     icon: "html"
   },
   {
-    name: "Vue.js",
-    icon: "vue"
+    name: "Tailwind",
+    icon: "tailwind"
   },
   {
     name: "React",
     icon: "react"
   },
   {
-    name: "Node.js",
-    icon: "node"
+    name: "Linux",
+    icon: "linux"
   },
   {
-    name: "Tailwind",
-    icon: "tailwind"
+    name: "PowerShell",
+    icon: "powershell"
   }
 ];
 </script>
